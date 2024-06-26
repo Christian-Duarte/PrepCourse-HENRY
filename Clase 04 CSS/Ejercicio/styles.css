@@ -1,0 +1,89 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: sans-serif;
+   background-color: #fff;
+}
+
+.header {
+   width: 100dvw;
+   height: 50px;
+   background-color: #48e;
+   padding: 10px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.link {
+   text-decoration: none;
+   color: #fff;
+}
+
+.nav {
+   padding: 5px;
+}
+
+.nav:hover {
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid #fff;
+   opacity: 0.8;
+}
+
+.title {
+   margin: 30px 10px;
+   border: 2px solid #48e;
+   border-radius: 30px;
+}
+
+h1 {
+   text-align: center;
+   padding: 5px;
+   font-size: 2.5rem;
+   color: #48e;
+}
+
+.parrafo {
+   font-family: "dancing script";
+   font-weight: 400;
+}
+
+.form {
+   border: 3px solid #48e;
+   border-radius: 6px;
+   min-height: 60dvh;
+   max-width: 80dvw;
+   align-items: center;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-self: center;
+   margin-top: 50px;
+}
+
+.form--title {
+   color: #48e;
+   text-align: center;
+}
+
+.form--form {
+   display: grid;
+   max-width: 600px;
+}
+
+.input {
+   margin: 10px;
+
+}
+
+footer {
+   margin-top: 50px;
+   height: 40px;
+   background-color: #18233f;
+   color: #fff;
+   text-align: center;
+   padding: 40px;
+}
