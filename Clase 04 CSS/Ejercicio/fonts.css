@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "dancing script";
+    src: url(../../Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf ) format("truetype");
+}
+
+@font-face {
+    font-family: "jacquard24";
+    src: url(../../Fonts/Jacquard24-Regular.ttf) format("truetype");
+}
